@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import filedialog, scrolledtext, messagebox
 from tkinter import ttk
 import threading
-import sys
+import sys 
 import os
 import re
 from Agent import MedicalCodingAgent
