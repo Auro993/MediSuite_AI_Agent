@@ -5,7 +5,7 @@ from openai_implementation import OpenAIImplementation
 from mistral_implementation import MistralImplementation
 
 def main():
-    """Main entry point for the CLI."""
+    """Main entry point for the CLI.""" 
     # Parse CLI arguments
     parser = argparse.ArgumentParser(description="Choose the LLM implementation to use.")
     parser.add_argument(
