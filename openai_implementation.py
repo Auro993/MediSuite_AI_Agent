@@ -3,7 +3,7 @@ from llm_interface import LLMInterface
 
 class OpenAIImplementation(LLMInterface):
     def __init__(self, api_key):
-        openai.api_key = api_key
+        openai.api_key = api_key 
 
     def generate_response(self, conversation_history, specific_prompt=None):
         messages = conversation_history.copy()
