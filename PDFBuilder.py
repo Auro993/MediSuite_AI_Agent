@@ -60,4 +60,4 @@ class PDFBuilder:
 
     def save(self):
         """Save the PDF."""
-        self.canvas.save()
+        self.canvas.save() 
