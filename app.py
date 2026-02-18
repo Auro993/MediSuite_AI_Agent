@@ -3,7 +3,7 @@ from tkinter import filedialog, scrolledtext, messagebox
 from tkinter import ttk
 import threading
 import sys 
-import os
+import os 
 import re
 from Agent import MedicalCodingAgent
 from PIL import Image, ImageTk
