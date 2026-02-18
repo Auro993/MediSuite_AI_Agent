@@ -4,7 +4,7 @@
 
 # Update package list
 echo "Updating package list..."
-sudo apt update
+sudo apt update 
 
 # Install system dependencies
 echo "Installing system dependencies..."
